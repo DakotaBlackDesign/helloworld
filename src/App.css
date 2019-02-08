@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.add {
+  background: #5F798E;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: calc(5px + 1.5vmin);
+  transition: background 0.2s;
+  cursor: pointer;
+  display: block;}
+
+.more {
+  background: #5F798E;
+  margin-top: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: calc(5px + 1.5vmin);
+  transition: background 0.2s;
+  cursor: pointer;
+  display: block;
+}
+.more:hover {
+  background: #9AACBF;
+}
+.add:hover {
+  background: #9AACBF;
+}
+
+.new-wisdom {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-align: top;
+  font-size: calc(5px + 1vmin);
+  transition: background 0.2s;
+  cursor: pointer;
+  display: block;
+}
